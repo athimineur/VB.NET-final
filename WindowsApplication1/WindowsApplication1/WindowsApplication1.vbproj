@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59796633-325A-4E94-A093-7FF56EBD0001}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>WindowsApplication1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Easy1.Designer.vb">
+      <DependentUpon>Easy1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Easy1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Easy2.Designer.vb">
+      <DependentUpon>Easy2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Easy2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Easy3.Designer.vb">
+      <DependentUpon>Easy3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Easy3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Easy4.Designer.vb">
+      <DependentUpon>Easy4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Easy4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Easy5.Designer.vb">
+      <DependentUpon>Easy5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Easy5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EasyCongrats.Designer.vb">
+      <DependentUpon>EasyCongrats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EasyCongrats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EasyFinal.Designer.vb">
+      <DependentUpon>EasyFinal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EasyFinal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterName.Designer.vb">
+      <DependentUpon>EnterName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EnterName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighScores.Designer.vb">
+      <DependentUpon>HighScores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HighScores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medium1.Designer.vb">
+      <DependentUpon>Medium1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Medium1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medium2.Designer.vb">
+      <DependentUpon>Medium2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Medium2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MediumCongrats.Designer.vb">
+      <DependentUpon>MediumCongrats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MediumCongrats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartScreen.Designer.vb">
+      <DependentUpon>StartScreen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Difficulty.Designer.vb">
+      <DependentUpon>Difficulty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Difficulty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Easy1.resx">
+      <DependentUpon>Easy1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Easy2.resx">
+      <DependentUpon>Easy2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Easy3.resx">
+      <DependentUpon>Easy3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Easy4.resx">
+      <DependentUpon>Easy4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Easy5.resx">
+      <DependentUpon>Easy5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EasyCongrats.resx">
+      <DependentUpon>EasyCongrats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EasyFinal.resx">
+      <DependentUpon>EasyFinal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterName.resx">
+      <DependentUpon>EnterName.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighScores.resx">
+      <DependentUpon>HighScores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medium1.resx">
+      <DependentUpon>Medium1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medium2.resx">
+      <DependentUpon>Medium2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MediumCongrats.resx">
+      <DependentUpon>MediumCongrats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartScreen.resx">
+      <DependentUpon>StartScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Difficulty.resx">
+      <DependentUpon>Difficulty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
